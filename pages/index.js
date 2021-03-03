@@ -47,15 +47,6 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-const clickHandle = () => {
-  document.location.href = 'https://stackoverflow.com/';
-}
-
-const Example = () => (
-  <button onClick={clickHandle}>StackOverflow</button>
-)
-
-export default Example;
          </div>
       </main>
 </div>
